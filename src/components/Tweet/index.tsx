@@ -13,6 +13,7 @@ import {
   Icons,
   Status,
   CommentIcon,
+  RetweetedIcon,
   RetweetIcon,
   LikeIcon, 
 } from './styles';
@@ -21,7 +22,7 @@ const Tweet: React.FC = () => {
   return (
     <Container>
       <Retweeted>
-        <RetweetIcon />
+        <RetweetedIcon />
         Você retweetou
       </Retweeted>
       <Body>
