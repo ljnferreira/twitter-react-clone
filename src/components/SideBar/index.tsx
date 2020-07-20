@@ -7,7 +7,10 @@ import {
   SearchIcon,
   Body
 } from './styles';
+
 import List from '../List';
+import FollowSugestion from '../FollowSugestion';
+import News from "../News";
 
 const SideBar: React.FC = () => {
   return (
@@ -20,18 +23,34 @@ const SideBar: React.FC = () => {
         <List
           title="Talvez você curta"
           elements={[
-            <h1>test</h1>,
-            <h1>test</h1>,
-            <h1>test</h1>
-          ]}
+            <FollowSugestion
+              name="Fred Barbosa"
+              nickname="@freddybarbosa"
+            />,
+            <FollowSugestion
+              name="Arthur Assunção"
+              nickname="@arthurassunção" 
+            />,
+            <FollowSugestion
+              name="Mateus Ferreira"
+              nickname="@mtsferreirasilva" 
+            /> ]}
         />
 
         <List
           title="Talvez você curta"
           elements={[
-            <h1>test</h1>,
-            <h1>test</h1>,
-            <h1>test</h1>
+            <News 
+              place="Brasil"
+              title="Vacina de Oxford obtem sucesso..."
+            />,
+            <News
+              place="Mundo"
+              title="Eleições presidenciais americanas..."/>,
+            <News 
+              place="Brasil"
+              title="Médico é o profissional que o brasileiro mais confia"
+            />
           ]}
         />
       </Body>
