@@ -9,7 +9,7 @@ import {
 } from './styles';
 
 import List from '../List';
-import FollowSugestion from '../FollowSugestion';
+import FollowSugestion from '../FollowSuggestion';
 import News from "../News";
 
 const SideBar: React.FC = () => {
