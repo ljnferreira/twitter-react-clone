@@ -1,9 +1,13 @@
 # Welcome to twitter-react-clone 👋
-![Version](https://img.shields.io/badge/version-1.16.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.20.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: ljnferreira](https://img.shields.io/twitter/follow/ljnferreira.svg?style=social)](https://twitter.com/ljnferreira)
 
-> A Twitter UI Clone made with React JS to practice this tecnology  
+> An responsive Twitter UI clone madw with React
+
+### 🏠 [Homepage](https://ljnferreira-twitter-react-clone.netlify.app/)
+
+### ✨ [Demo](https://ljnferreira-twitter-react-clone.netlify.app/)
 
 ## Install
 
@@ -25,7 +29,7 @@ yarn run test
 
 ## Author
 
-👤 **Lucas Ferreira**
+👤 **Lucas N Ferreira**
 
 * Website: ljnferreira.com.br
 * Twitter: [@ljnferreira](https://twitter.com/ljnferreira)
