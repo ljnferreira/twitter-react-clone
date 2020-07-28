@@ -7,7 +7,8 @@ import {
   SearchWrapper,
   SearchInput,
   SearchIcon,
-  Body
+  Body,
+  ShowMore
 } from './styles';
 
 import List from '../List';
@@ -38,11 +39,17 @@ const SideBar: React.FC = () => {
               <FollowSugestion
                 name="Mateus Ferreira"
                 nickname="@mtsferreirasilva" 
-              /> ]}
+              />, 
+              <ShowMore>
+                <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                  Mostrar mais
+                </a>
+              </ShowMore>
+            ]}
           />
 
           <List
-            title="Talvez você curta"
+            title="O que está acontecendo"
             elements={[
               <News 
                 place="Brasil"
@@ -50,7 +57,8 @@ const SideBar: React.FC = () => {
               />,
               <News
                 place="Mundo"
-                title="Eleições presidenciais americanas..."/>,
+                title="Eleições presidenciais americanas
+                estão em fase de definição de candidatos"/>,
               <News 
                 place="Brasil"
                 title="Médico é o profissional que o brasileiro mais confia"
@@ -71,11 +79,17 @@ const SideBar: React.FC = () => {
               <FollowSugestion
                 name="Mateus Ferreira"
                 nickname="@mtsferreirasilva" 
-              /> ]}
+              />,
+              <ShowMore>
+                <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                  Mostrar mais
+                </a>
+              </ShowMore>
+            ]}
           />
 
           <List
-            title="Talvez você curta"
+            title="O que está acontecendo"
             elements={[
               <News 
                 place="Brasil"
@@ -83,7 +97,8 @@ const SideBar: React.FC = () => {
               />,
               <News
                 place="Mundo"
-                title="Eleições presidenciais americanas..."/>,
+                title="Eleições presidenciais americanas
+                estão em fase de definição dos candidatos"/>,
               <News 
                 place="Brasil"
                 title="Médico é o profissional que o brasileiro mais confia"

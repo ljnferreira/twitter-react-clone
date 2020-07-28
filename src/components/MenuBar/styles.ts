@@ -23,7 +23,7 @@ export const Container = styled.div`
     top: 0;
     left: 0;
 
-    padding: 9px 19px 20px;
+    padding: 0px 50px 20px 19px;
 
     max-height: 100vh;
 
@@ -43,11 +43,11 @@ export const TopSide = styled.div`
 `;
 
 export const Logo = styled(Twitter)`
-  width: 41px;
-  height: 41px;
+  width: 30px;
+  height: 30px;
 
   > path{
-    fill: var(--twitter);
+    fill: var(--white);
   }
 
   margin: 20px 0;
