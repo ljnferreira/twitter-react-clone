@@ -36,5 +36,5 @@ export const Info = styled.div`
 
 `;
 export const FollowButton = styled(Button)`
-  padding-top: 6px 16px;
+  padding: 6px 16px;
 `;

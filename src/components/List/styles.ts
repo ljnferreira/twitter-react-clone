@@ -14,7 +14,7 @@ export const Title = styled.span`
 
 export const Item = styled.div`
   
-  padding: 10px 16px;
+  padding: 15px 20px;
 
   & + div {
     border-top: 1px solid var(--outline);

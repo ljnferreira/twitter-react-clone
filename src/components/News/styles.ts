@@ -10,4 +10,8 @@ export const Container = styled.div`
     color: var(--gray);
     margin-bottom: 3px;
   }
+
+  > strong {
+    cursor: pointer;
+  }
 `; 

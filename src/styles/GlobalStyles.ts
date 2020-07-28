@@ -33,6 +33,7 @@ export default createGlobalStyle`
     --secondary: #15181c;
     --search: #202327;
     --white: #D9D9D9;
+    --text-color: #D9D9D9;
     --gray: #7A7A7A;
     --outline: #2F3336;
     --retweet: #00C068;

@@ -15,7 +15,7 @@ export const Container = styled.div`
 `;
 
 export const SearchWrapper = styled.div`
-  padding: 10px 24px;
+  padding: 8px 30px 10px;
   width: min(399px, 100%);
 
   position: fixed;
@@ -27,10 +27,10 @@ export const SearchWrapper = styled.div`
 `;
 export const SearchInput = styled.input`
   width: 100%;
-  height: 37px;
+  height: 42px;
   font-size: 14px;
   padding: 0 10px 0 52px;
-  border-radius: 19.5px;
+  border-radius: 21px;
   background: var(--search);
   
   &::placeholder{
@@ -67,10 +67,22 @@ export const Body = styled.div`
   display: flex;
   flex-direction: column;
   
-  padding: 57px 24px 200px;
+  padding: 65px 30px 200px;
   margin-top: 3px;
 
   > div + div {
     margin-top: 15px;
+  }
+`;
+
+export const ShowMore = styled.div`
+  align-items: left;
+  
+  > a {
+    text-decoration: none;
+    color: var(--twitter);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
   }
 `;
