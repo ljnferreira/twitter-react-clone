@@ -7,7 +7,7 @@ console.log(bearer);
 
 const api = axios.create({
   baseURL: url,
-  headers: {'Authoization' : 'bearer '+bearer}
+  headers: {'Authorization' : 'bearer '+bearer}
 });
 
 export default api;
